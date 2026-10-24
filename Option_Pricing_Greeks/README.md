@@ -3,7 +3,7 @@
 A university project (course assignment) that prices a European call and put three different ways and studies how close, and how certain, the numerical answers are.
 
 ## What it studies and why
-Closed-form prices exist for simple options, but most real products are priced numerically. This project uses the simple case, where the exact answer is known, as a testbed. It asks how quickly Monte Carlo simulation and a binomial tree approach the exact value as more simulations or time steps are used, how large the remaining uncertainty is, and which of delta, gamma and vega are hard to estimate numerically.
+Closed-form prices exist for options, but most real products are priced numerically. This project uses the case where the exact answer is known, as a test. It asks how quickly Monte Carlo simulation and a binomial tree approach the exact value as more simulations or time steps are used, how large the remaining uncertainty is, and which of delta, gamma and vega are hard to estimate numerically.
 
 **Option and market inputs:** non-dividend stock at 40, strike 40, interest rate 3.2%, volatility 20%, expiry 1/3 year.
 
